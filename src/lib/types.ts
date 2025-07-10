@@ -1,13 +1,18 @@
-export type ItemCategory = 'Fruit' | 'Vegetable' | 'Dairy' | 'Meat' | 'Pantry' | 'Frozen' | 'Beverage' | 'Snack' | 'Other';
+import type { LucideProps } from "lucide-react";
+import type { ForwardRefExoticComponent, RefAttributes } from "react";
 
-export type ItemLocation = 'Fridge' | 'Pantry' | 'Freezer';
-
-export interface InventoryItem {
+export type Category = {
   id: string;
   name: string;
+  icon: ForwardRefExoticComponent<Omit<LucideProps, "ref"> & RefAttributes<SVGSVGElement>>;
+};
+
+export type Product = {
+  id: string;
+  name: string;
+  brand: string;
   quantity: number;
-  minStock: number;
-  expiryDate?: string;
-  category: ItemCategory;
-  location: ItemLocation;
-}
+  expiryDate: Date;
+  price: number;
+  category: string;
+};

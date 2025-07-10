@@ -1,21 +1,18 @@
-# **App Name**: DyxHomeShop
+# **App Name**: Datafy
 
 ## Core Features:
 
-- Shopping List Management: Create and manage shopping lists for different locations (e.g., fridge, pantry).
-- Low Stock Alerts: Set minimum stock levels and receive notifications when items are running low, prompting reordering.
-- Smart Recipe Suggestions: Suggest recipes based on ingredients that are nearing expiration. Uses an AI tool to select the best recipes from a recipe database, with the goal of reducing food waste.
-- Voice Control: Voice command integration for adding or removing items from shopping lists.
-- Smart Device Integration: Connect your shopping list with preferred local markets or lanchonetes apps or supported smart fridges and shopping carts.
-- Gamified User Experience: Reward user engagement with Dyx coins for completing shopping trips, trying new recipes, and maintaining stock levels. Dyx coins can be used to customize the dashboard and user avatar.
-- Interactive 3D Animations: Provide visually appealing 3D animations when products are added to a user's list.
+- Dashboard Overview: Display a dashboard of summarized data including expiring items and stock levels.
+- Product Categorization and Filtering: Categorize and filter products. The categories will be "bebidas" (drinks), "geladeira" (refrigerated), and custom ones added by the user.
+- Add New Products: Allow users to add products, specifying their name, brand, quantity, expiry date, price, and category.
+- Expiry Date Alerts: Notify the user when products are nearing their expiration date using local notifications.
 
 ## Style Guidelines:
 
-- Primary color: Saturated cyan (#46B2DA) to evoke freshness and cleanliness associated with home and groceries.
-- Background color: Light cyan (#E0F7FA), providing a clean, airy backdrop.
-- Accent color: Teal (#33A19F), drawing users' attention to notifications or CTAs.
-- Body and headline font: 'Inter' sans-serif, for its clean and modern appearance.
-- Use simple, line-based icons with rounded corners to represent different product categories and actions. Ensure they are easily recognizable and contribute to a user-friendly interface.
-- Employ a grid-based layout to ensure a structured and dynamic display of content. The layout should adapt fluidly to different screen sizes, offering a seamless experience across devices.
-- Incorporate subtle and creative 3D animations, for adding elements to the user’s shopping list, to guide the user through interactions and provide visual feedback without being intrusive.
+- Primary color: Indigo (#3F51B5) to convey a sense of organization and data focus.
+- Background color: Very dark gray (#121212) to create a modern and focused dark theme.
+- Accent color: Violet (#7CB342), for interactive elements, to maintain readability in dark conditions.
+- Body and headline font: 'Inter' (sans-serif) for a clear and modern presentation of data.
+- Use minimalist and clear icons for categories and actions.
+- Emphasize clear visual hierarchy with well-defined sections and sufficient spacing for readability.
+- Use subtle transitions and animations for interactions such as adding or filtering items.
